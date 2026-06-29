@@ -11,10 +11,12 @@ const en = {
 
   // ── Hero ────────────────────────────────────────────────
   heroAvailability: 'Available for new opportunities',
+  heroRelocation: 'Open to relocation',
   heroGreeting: "Hello, I'm",
   profileTitle: 'Senior Full Stack Developer',
   heroBtnProjects: 'My projects',
   heroBtnContact: 'Contact me',
+  heroBtnCV: 'Download CV',
   heroScrollHint: 'Scroll',
   profileSummary:
     'Senior Full Stack Developer with 5+ years of experience designing, developing and maintaining scalable, high-performance business web applications. Strong expertise in C#, ASP.NET Core, Angular and TypeScript with a solid Agile/Scrum culture.',
@@ -28,6 +30,7 @@ const en = {
   skillsDesc: '5+ years of experience covering backend, frontend, cloud and testing.',
   skillsBehavioural: 'Soft skills',
   skillsLanguages: 'Languages',
+  skillsCatHint: 'Click on a category to explore',
   softSkills: [
     { icon: '🧩', text: 'Problem solving' },
     { icon: '🤝', text: 'Agile collaboration' },
@@ -83,10 +86,12 @@ const fr = {
 
   // ── Hero ────────────────────────────────────────────────
   heroAvailability: 'Disponible pour de nouvelles opportunités',
+  heroRelocation: 'Ouvert à la mobilité',
   heroGreeting: 'Bonjour, je suis',
   profileTitle: 'Développeur Full Stack Senior',
   heroBtnProjects: 'Mes projets',
   heroBtnContact: 'Me contacter',
+  heroBtnCV: 'Télécharger le CV',
   heroScrollHint: 'Défiler',
   profileSummary:
     "Développeur Full Stack Senior avec plus de 5 ans d'expérience dans la conception, le développement et la maintenance d'applications web évolutives, performantes et orientées métier. Solide expertise en C#, ASP.NET Core, Angular et TypeScript avec une forte culture Agile/Scrum.",
@@ -100,6 +105,7 @@ const fr = {
   skillsDesc: "5+ ans d'expérience couvrant le backend, le frontend, le cloud et les tests.",
   skillsBehavioural: 'Compétences comportementales',
   skillsLanguages: 'Langues',
+  skillsCatHint: 'Cliquez sur une catégorie pour explorer',
   softSkills: [
     { icon: '🧩', text: 'Résolution de problèmes' },
     { icon: '🤝', text: 'Collaboration Agile' },
