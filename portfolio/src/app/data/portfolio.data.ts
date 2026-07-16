@@ -362,8 +362,8 @@ export const contact = {
 };
 
 export const languages = [
-  { name: 'Francais', level: 'Courant', percent: 100 },
-  { name: 'Anglais', level: 'Professionnel', percent: 80 },
+  { name: 'Français', flagCode: 'fr', level: 'Courant', percent: 100 },
+  { name: 'Anglais', flagCode: 'gb', level: 'Professionnel', percent: 80 },
 ];
 
 export const softSkills = [
