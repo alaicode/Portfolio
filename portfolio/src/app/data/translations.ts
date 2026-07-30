@@ -45,6 +45,7 @@ const en = {
   projectsDesc: 'Full-stack projects showcasing expertise in architecture, performance and quality.',
   projectsFeatured: '⭐ Featured',
   projectsViewGithub: 'View on GitHub',
+  projectsViewDemo: 'Live Demo',
 
   // ── Experience section ──────────────────────────────────
   experienceEyebrow: 'Experience',
@@ -121,6 +122,7 @@ const fr = {
   projectsDesc: 'Projets full-stack illustrant mon expertise en architecture, performance et qualité.',
   projectsFeatured: '⭐ Featured',
   projectsViewGithub: 'Voir sur GitHub',
+  projectsViewDemo: 'Démo en ligne',
 
   // ── Experience section ──────────────────────────────────
   experienceEyebrow: 'Expérience',
