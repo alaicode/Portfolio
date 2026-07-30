@@ -36,14 +36,14 @@ jobs:
       - name: Build Angular application
         run: npm run build -- --base-href /Portfolio/
 
-      - name: Upload GitHub Pages artifact
+      - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: portfolio/dist/portfolio/browser
 
 
   deploy:
-    name: Deploy to GitHub Pages
+    name: Deploy GitHub Pages
     needs: build
 
     runs-on: ubuntu-latest
@@ -53,6 +53,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Deploy Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
