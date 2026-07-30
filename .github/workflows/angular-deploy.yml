@@ -6,29 +6,46 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: portfolio
 
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
 
       - name: Install
-        working-directory: portfolio
-        run: npm ci
+        run: npm install
 
       - name: Build
-        working-directory: portfolio
-        run: npm run build -- --configuration production --base-href "/portfolio/"
+        run: npm run build -- --base-href /Portfolio/
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./portfolio/dist/portfolio/browser
+          path: portfolio/dist/portfolio
+
+
+  deploy:
+    needs: build
+
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+
+    steps:
+      - name: Deploy
+        uses: actions/deploy-pages@v4
