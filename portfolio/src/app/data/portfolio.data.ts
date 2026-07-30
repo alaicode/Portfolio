@@ -324,7 +324,7 @@ export const experience = [
 export const education = [
   {
     period: '2021 – 2023',
-    title: 'Master MIAGE',
+    title: 'Master MIAGE MBDS',
     institution: "Université Côte d'Azur",
     location: 'France',
     icon: '🎓',
