@@ -12,25 +12,19 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: portfolio
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-          cache-dependency-path: portfolio/package-lock.json
 
-      - name: Install dependencies
+      - name: Install
+        working-directory: portfolio
         run: npm ci
 
-      - name: Build Angular
+      - name: Build
+        working-directory: portfolio
         run: npm run build -- --configuration production --base-href "/portfolio/"
 
       - name: Deploy
