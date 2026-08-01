@@ -40,8 +40,16 @@ export class App implements AfterViewInit, OnDestroy {
 
   private sectionObserver?: IntersectionObserver;
   private revealObserver?: IntersectionObserver;
+  private static readonly LANG_STORAGE_KEY = 'portfolio-lang';
 
-  constructor(@Inject(PLATFORM_ID) private platformId: object) {}
+  constructor(@Inject(PLATFORM_ID) private platformId: object) {
+    if (isPlatformBrowser(this.platformId)) {
+      const savedLang = localStorage.getItem(App.LANG_STORAGE_KEY);
+      if (savedLang === 'en' || savedLang === 'fr') {
+        this.lang.set(savedLang);
+      }
+    }
+  }
 
   get currentSkills(): string[] {
     return this.skillCategories[this.activeSkillCat()].items;
@@ -120,7 +128,11 @@ export class App implements AfterViewInit, OnDestroy {
   }
 
   toggleLang(): void {
-    this.lang.set(this.lang() === 'en' ? 'fr' : 'en');
+    const newLang: Lang = this.lang() === 'en' ? 'fr' : 'en';
+    this.lang.set(newLang);
+    if (isPlatformBrowser(this.platformId)) {
+      localStorage.setItem(App.LANG_STORAGE_KEY, newLang);
+    }
   }
 
   onImgError(event: Event): void {

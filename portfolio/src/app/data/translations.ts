@@ -14,13 +14,13 @@ const en = {
   heroAvailability: 'Available for new opportunities',
   heroRelocation: 'Open to relocation',
   heroGreeting: "Hello, I'm",
-  profileTitle: 'Senior Full Stack Developer',
+  profileTitle: 'Full Stack Software Engineer · .NET | Angular | Blazor | Azure | Cloud Architecture | AI-powered Applications',
   heroBtnProjects: 'My projects',
   heroBtnContact: 'Contact me',
   heroBtnCV: 'Download CV',
   heroScrollHint: 'Scroll',
   profileSummary:
-    'Senior Full Stack Developer with 5+ years of experience designing, developing and maintaining scalable, high-performance business web applications. Strong expertise in C#, ASP.NET Core, Angular and TypeScript with a solid Agile/Scrum culture.',
+    'Full Stack Software Engineer based in Mauritius, originally from Madagascar, specialized in .NET and modern frontend technologies (Angular, Blazor), focused on building maintainable and scalable applications. Experienced in designing professional software solutions with clean architecture principles, cloud-native practices and AI-powered integrations, using modern software engineering practices.',
 
   // ── Stats labels (index-matched with stats array) ───────
   statsLabels: ['Years of experience', 'Companies', 'Projects delivered', 'Technologies'],
@@ -28,7 +28,7 @@ const en = {
   // ── Skills section ──────────────────────────────────────
   skillsEyebrow: 'Skills',
   skillsTitle: 'Mastered technologies',
-  skillsDesc: '5+ years of experience covering backend, frontend, cloud and testing.',
+  skillsDesc: 'Full stack expertise across the .NET ecosystem, Angular, cloud architecture and AI-powered application engineering.',
   skillsBehavioural: 'Soft skills',
   skillsLanguages: 'Languages',
   skillsCatHint: 'Click on a category to explore',
@@ -42,7 +42,7 @@ const en = {
   // ── Projects section ────────────────────────────────────
   projectsEyebrow: 'Projects',
   projectsTitle: 'Key achievements',
-  projectsDesc: 'Full-stack projects showcasing expertise in architecture, performance and quality.',
+  projectsDesc: 'Full stack .NET and Angular projects showcasing software architecture, distributed systems and AI-powered applications.',
   projectsFeatured: '⭐ Featured',
   projectsViewGithub: 'View on GitHub',
   projectsViewDemo: 'Demo',
@@ -74,7 +74,7 @@ const en = {
   contactViewRepos: 'View my repos →',
 
   // ── Footer ──────────────────────────────────────────────
-  footerRole: 'Senior Full Stack Developer .NET / Angular',
+  footerRole: 'Full Stack Software Engineer · .NET Ecosystem',
 };
 
 const fr = {
@@ -91,13 +91,13 @@ const fr = {
   heroAvailability: 'Disponible pour de nouvelles opportunités',
   heroRelocation: 'Ouvert à la mobilité',
   heroGreeting: 'Bonjour, je suis',
-  profileTitle: 'Développeur Full Stack Senior',
+  profileTitle: "Ingénieur logiciel Full Stack · .NET | Angular | Blazor | Azure | Architecture Cloud | Applications intégrant l'IA",
   heroBtnProjects: 'Mes projets',
   heroBtnContact: 'Me contacter',
   heroBtnCV: 'Télécharger le CV',
   heroScrollHint: 'Défiler',
   profileSummary:
-    "Développeur Full Stack Senior avec plus de 5 ans d'expérience dans la conception, le développement et la maintenance d'applications web évolutives, performantes et orientées métier. Solide expertise en C#, ASP.NET Core, Angular et TypeScript avec une forte culture Agile/Scrum.",
+    "Ingénieur logiciel Full Stack basé à Maurice, originaire de Madagascar, spécialisé dans l'écosystème .NET et les technologies frontend modernes (Angular, Blazor), je conçois des applications professionnelles maintenables et évolutives. Mon approche repose sur l'architecture logicielle, les bonnes pratiques d'ingénierie, les plateformes cloud et l'intégration de solutions basées sur l'intelligence artificielle.",
 
   // ── Stats labels ────────────────────────────────────────
   statsLabels: ["Ans d'expérience", 'Entreprises', 'Projets livrés', 'Technologies'],
@@ -105,7 +105,7 @@ const fr = {
   // ── Skills section ──────────────────────────────────────
   skillsEyebrow: 'Compétences',
   skillsTitle: 'Technologies maîtrisées',
-  skillsDesc: "5+ ans d'expérience couvrant le backend, le frontend, le cloud et les tests.",
+  skillsDesc: "Expertise Full Stack couvrant l'écosystème .NET, Angular, l'architecture cloud et l'ingénierie de solutions intégrant l'IA.",
   skillsBehavioural: 'Compétences comportementales',
   skillsLanguages: 'Langues',
   skillsCatHint: 'Cliquez sur une catégorie pour explorer',
@@ -119,7 +119,7 @@ const fr = {
   // ── Projects section ────────────────────────────────────
   projectsEyebrow: 'Projets',
   projectsTitle: 'Réalisations clés',
-  projectsDesc: 'Projets full-stack illustrant mon expertise en architecture, performance et qualité.',
+  projectsDesc: "Projets Full Stack .NET et Angular illustrant l'architecture logicielle, les systèmes distribués et les applications intégrant l'IA.",
   projectsFeatured: '⭐ Featured',
   projectsViewGithub: 'Voir sur GitHub',
   projectsViewDemo: 'Démo',
@@ -151,7 +151,7 @@ const fr = {
   contactViewRepos: 'Voir mes repos →',
 
   // ── Footer ──────────────────────────────────────────────
-  footerRole: 'Développeur Full Stack Senior .NET / Angular',
+  footerRole: "Ingénieur logiciel Full Stack · Écosystème .NET",
 };
 
 export const translations = { en, fr };
