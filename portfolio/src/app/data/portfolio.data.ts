@@ -18,7 +18,7 @@ export const profile = {
   phone: '+230 5507 1220',
   email: 'randrianarimanana.toki@gmail.com',
   linkedin: 'linkedin.com/in/tokiniaina-randrianarimanana-9b20111a2',
-  github: 'github.com/alaicode?tab=repositories',
+  github: 'github.com/tokiniaina-dev?tab=repositories',
   availability: 'Disponible pour de nouvelles opportunites',
   footerRole: 'Full Stack Software Engineer · Ecosysteme .NET',
   summary:
@@ -117,8 +117,8 @@ export const projects = [
     tech: ['.NET 10', 'Angular', 'Clean Architecture', 'CQRS', 'SQL Server', 'Docker', 'CI/CD', 'Azure'],
     color: '#0078d4',
     gradient: 'linear-gradient(135deg, #0078d4 0%, #005a9e 100%)',
-    github: 'github.com/toki-dev/decision-flow',
-    demo: 'https://github.com/toki-dev/decision-flow',
+    github: 'github.com/tokiniaina-dev/decision-flow',
+    demo: 'https://github.com/tokiniaina-dev/decision-flow',
     featured: true,
   },
   {
@@ -130,8 +130,8 @@ export const projects = [
     tech: ['.NET', 'Angular', 'Azure AI', 'OpenAI', 'RAG', 'Vector Search'],
     color: '#5c2d91',
     gradient: 'linear-gradient(135deg, #5c2d91 0%, #7b3d9e 100%)',
-    github: 'github.com/alaicode',
-    demo: 'https://github.com/alaicode',
+    github: 'github.com/tokiniaina-dev',
+    demo: 'https://github.com/tokiniaina-dev',
     featured: true,
   },
   {
@@ -143,8 +143,8 @@ export const projects = [
     tech: ['.NET', 'Angular', 'Docker', 'Redis', 'RabbitMQ / Kafka', 'SignalR', 'Azure'],
     color: '#107c10',
     gradient: 'linear-gradient(135deg, #107c10 0%, #0e6b0e 100%)',
-    github: 'github.com/alaicode',
-    demo: 'https://github.com/alaicode',
+    github: 'github.com/tokiniaina-dev',
+    demo: 'https://github.com/tokiniaina-dev',
     featured: false,
   },
 ];
@@ -357,10 +357,10 @@ export const contact = {
   email: 'randrianarimanana.toki@gmail.com',
   phone: '+230 5507 1220',
   linkedin: 'linkedin.com/in/tokiniaina-randrianarimanana-9b20111a2',
-  github: 'github.com/alaicode?tab=repositories',
+  github: 'github.com/tokiniaina-dev?tab=repositories',
   location: 'Maurice',
   linkedinName: 'Tokiniaina Randrianarimanana',
-  githubHandle: 'alaicode',
+  githubHandle: 'tokiniaina-dev',
 };
 
 export const languages = [
